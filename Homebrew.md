@@ -15,7 +15,7 @@ https://brew.sh/
     https://docs.brew.sh
 ```
 
-# install Git
+# git
 
 ```text
 # Update Homebrew formulae
@@ -25,6 +25,19 @@ brew update
 brew install git
 
 git --version
+```
+
+# tree
+
+```text
+# Update brew formulas
+brew update
+
+# Install tree
+brew install tree
+
+# 在要顯示目錄的路徑下
+tree
 ```
 
 # remove
