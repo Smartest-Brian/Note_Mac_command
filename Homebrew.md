@@ -1,4 +1,4 @@
-install
+# install brew
 
 https://brew.sh/
 
@@ -15,10 +15,7 @@ https://brew.sh/
     https://docs.brew.sh
 ```
 
-
-
-
-git
+# install Git
 
 ```text
 # Update Homebrew formulae
@@ -30,9 +27,12 @@ brew install git
 git --version
 ```
 
-# Remove
+# remove
 
 ```text
+# 顯示安裝清單
+brew list -l
+
 # 卸載軟體
 brew uninstall <formula_name>
 
