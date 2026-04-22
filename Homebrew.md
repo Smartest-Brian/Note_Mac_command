@@ -109,6 +109,7 @@ $ brew install --cask postman
 $ brew install --cask sourcetree
 $ brew install --cask docker
 $ brew install --cask setapp
+brew install --cask sublime-text
 ```
 
 # Remove Casks
