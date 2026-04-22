@@ -4,7 +4,7 @@ https://brew.sh/
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-```text
+```Bash
 ==> Next steps:
 - Run these commands in your terminal to add Homebrew to your PATH:
     echo >> /Users/brian/.zprofile
@@ -15,10 +15,12 @@ https://brew.sh/
     https://docs.brew.sh
 ```
 
-# git
+# formulae
 
-```text
-# Update Homebrew formulae
+## git
+
+```Bash
+# Update Homebrew
 brew update
 
 # Install Git
@@ -27,10 +29,10 @@ brew install git
 git --version
 ```
 
-# tree
+## tree
 
-```text
-# Update brew formulas
+```Bash
+# Update brew
 brew update
 
 # Install tree
@@ -40,9 +42,9 @@ brew install tree
 tree
 ```
 
-# remove
+## remove
 
-```text
+```Bash
 # 顯示安裝清單
 brew list -l
 
@@ -55,3 +57,20 @@ brew autoremove
 # 清理下載的快取檔案 (Cache files)
 brew cleanup
 ```
+
+
+# Casks
+
+```Bash
+$ brew install --cask jetbrains-rider
+```
+
+```Bash
+$ brew install --cask pycharm
+```
+
+
+
+brew bundle dump
+
+
