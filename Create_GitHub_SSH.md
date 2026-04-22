@@ -16,7 +16,6 @@
 如果你沒有金鑰，請執行以下指令（請將 Email 換成你的 GitHub 帳號）：
 
 ```bash
-# Generate a new SSH key using Ed25519 algorithm
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
@@ -30,7 +29,6 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 1. **複製公鑰內容：**
    ```bash
-   # Copy the public key content to clipboard
    pbcopy < ~/.ssh/id_ed25519.pub
    ```
 2. **前往 GitHub 設定：**
@@ -49,7 +47,6 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 設定完成後，測試是否連線成功：
 
 ```bash
-# Test the connection to GitHub
 ssh -T git@github.com
 ```
 * 如果看到 `Hi username! You've successfully authenticated...`，就代表成功了！
