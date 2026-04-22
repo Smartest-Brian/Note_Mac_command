@@ -83,14 +83,17 @@ $ brew cleanup
 $ brew install --cask raycast rectangle google-chrome
 
 # 開發 IDE
-$ brew install --cask pycharm
-$ brew install --cask jetbrains-rider
 $ brew install --cask visual-studio-code
 $ brew install --cask postman
 $ brew install --cask sourcetree
 $ brew install --cask docker
-$ brew install --cask setapp
 $ brew install --cask sublime-text
+
+# 有訂閱的
+$ brew install --cask setapp
+$ brew install --cask nordvpn
+$ brew install --cask pycharm
+$ brew install --cask jetbrains-rider
 ```
 
 # Remove Casks
