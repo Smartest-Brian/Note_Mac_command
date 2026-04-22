@@ -4,20 +4,21 @@ https://brew.sh/
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-```Bash
+```text
+安裝完console會顯示，照著執行。
+
 ==> Next steps:
 - Run these commands in your terminal to add Homebrew to your PATH:
     echo >> /Users/brian/.zprofile
     echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/brian/.zprofile
     eval "$(/opt/homebrew/bin/brew shellenv zsh)"
 - Run brew help to get started
-- Further documentation:
-    https://docs.brew.sh
+...
 ```
 
 # Basic command
 
-```Bash
+```bash
 # 搜尋套件
 $ brew search <name>
 
@@ -25,7 +26,7 @@ $ brew search <name>
 $ brew install <name>
 
 # 安裝清單
-$ brew list
+$ brew list -l
 
 # 更新 Homebrew 本身（及獲取最新套件清單）
 $ brew update
@@ -47,59 +48,37 @@ $ brew info <name>
 
 # 常用
 $ brew update && brew upgrade && brew cleanup
-
 ```
 
 # Install Formulae
 
-## git
-
-```Bash
-# Update Homebrew
-brew update
-
-# Install Git
-brew install git
-
-git --version
+```bash
+# 好用套件
+$ brew install git tree
 ```
 
-## tree
+# Remove  Formulae
 
-```Bash
-# Update brew
-brew update
-
-# Install tree
-brew install tree
-
-# 在要顯示目錄的路徑下
-tree
-```
-
-## remove
-
-```Bash
+```bash
 # 顯示安裝清單
-brew list -l
+$ brew list -l
 
 # 卸載軟體
-brew uninstall <name>
+$ brew uninstall <name>
 
 # 清理不再需要的依賴套件 (Dependencies)
-brew autoremove
+$ brew autoremove
 
 # 清理下載的快取檔案 (Cache files)
-brew cleanup
+$ brew cleanup
 ```
 
 
 # Install Casks
 
-```Bash
+```bash
 # 好用工具
-brew install --cask raycast rectangle google-chrome
-
+$ brew install --cask raycast rectangle google-chrome
 
 # 開發 IDE
 $ brew install --cask pycharm
@@ -109,12 +88,12 @@ $ brew install --cask postman
 $ brew install --cask sourcetree
 $ brew install --cask docker
 $ brew install --cask setapp
-brew install --cask sublime-text
+$ brew install --cask sublime-text
 ```
 
 # Remove Casks
 
-```Bash
+```bash
 # 如果你想用 Homebrew 卸載 app 並清乾淨所有暫存檔，建議使用
 $ brew uninstall --cask --zap <name>
 
@@ -122,10 +101,20 @@ $ brew uninstall --cask --zap <name>
 $ brew uninstall --cask --zap --force <name>
 ```
 
--- Brewfile
-brew bundle dump
+# 管理 Brewfile
+```bash
+# 輸出備份：將目前電腦已安裝的所有軟體紀錄成一個 Brewfile
+$ brew bundle dump
 
+# 自動安裝：讀取當前目錄下的 Brewfile 並安裝所有缺失的軟體。
+$ brew bundle
 
-brew bundle
+# 檢查狀態：檢查目前的環境是否與 Brewfile 一致。
+$ brew bundle check
+
+# 強制一致：移除「不在」Brewfile 清單中的所有軟體 (慎用)。
+$ brew bundle cleanup
+
+```
 
 
