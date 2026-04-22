@@ -15,7 +15,7 @@ https://brew.sh/
     https://docs.brew.sh
 ```
 
-# Basic CLI
+# Basic command
 
 ```Bash
 # 搜尋套件
@@ -98,11 +98,14 @@ brew cleanup
 
 ```Bash
 # 好用工具
-brew install --cask raycast rectangle
+brew install --cask raycast rectangle google-chrome
+
 
 # 開發 IDE
 $ brew install --cask pycharm
 $ brew install --cask jetbrains-rider
+$ brew install --cask visual-studio-code
+$ brew install --cask postman
 
 ```
 
@@ -111,6 +114,9 @@ $ brew install --cask jetbrains-rider
 ```Bash
 # 如果你想用 Homebrew 卸載 app 並清乾淨所有暫存檔，建議使用
 $ brew uninstall --cask --zap <name>
+
+# Force uninstall and zap the application
+$ brew uninstall --cask --zap --force <name>
 ```
 
 -- Brewfile
