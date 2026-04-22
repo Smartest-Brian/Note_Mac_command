@@ -106,7 +106,8 @@ $ brew install --cask pycharm
 $ brew install --cask jetbrains-rider
 $ brew install --cask visual-studio-code
 $ brew install --cask postman
-
+$ brew install --cask sourcetree
+$ brew install --cask docker
 ```
 
 # Remove Casks
