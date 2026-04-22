@@ -108,6 +108,7 @@ $ brew install --cask visual-studio-code
 $ brew install --cask postman
 $ brew install --cask sourcetree
 $ brew install --cask docker
+$ brew install --cask setapp
 ```
 
 # Remove Casks
