@@ -92,6 +92,7 @@ $ brew install --cask sublime-text
 # 有訂閱的
 $ brew install --cask setapp
 $ brew install --cask nordvpn
+$ brew install --cask parallels
 $ brew install --cask pycharm
 $ brew install --cask jetbrains-rider
 ```
