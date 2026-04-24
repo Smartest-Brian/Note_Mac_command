@@ -1,4 +1,4 @@
-# install brew
+# INSTALL HOMEBREW
 
 https://brew.sh/
 
@@ -88,6 +88,7 @@ $ brew install --cask postman
 $ brew install --cask sourcetree
 $ brew install --cask docker
 $ brew install --cask sublime-text
+$ brew install --cask antigravity
 
 # 有訂閱的
 $ brew install --cask setapp
