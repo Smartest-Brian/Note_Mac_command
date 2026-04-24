@@ -1,4 +1,4 @@
-# Application 官網
+# Application 官網下載安裝
 
 ### 基本
 
@@ -20,6 +20,9 @@ $ xcode-select --install
 
 Setapp <https://setapp.com/>
 
+NordVPN <https://nordvpn.com/zh-tw/download/mac/>
+
+Parallels <https://www.parallels.com/products/desktop/>
 
 ---
 
