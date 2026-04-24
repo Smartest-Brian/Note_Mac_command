@@ -4,11 +4,17 @@
 
 Google Chrome <https://www.google.com/intl/zh-TW/chrome/>
 
-Git <https://git-scm.com/>
-
 Raycast <https://www.raycast.com/>
 
 Rectangle <https://rectangleapp.com/>
+
+
+
+Git <https://git-scm.com/>
+```bash
+$ xcode-select --install
+```
+
 
 ### 訂閱
 
