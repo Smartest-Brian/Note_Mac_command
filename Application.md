@@ -44,3 +44,5 @@ Visual Studio Code <https://code.visualstudio.com/>
 
 Antigravity <https://antigravity.google/>
 
+Pycharm <https://www.jetbrains.com/pycharm/>
+
