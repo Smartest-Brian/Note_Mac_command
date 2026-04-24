@@ -1,17 +1,15 @@
 # Application 官網
 
+### 基本
 
-[chrome]<https://www.google.com/intl/zh-TW/chrome/>
+Google Chrome <https://www.google.com/intl/zh-TW/chrome/>
 
+Git <https://git-scm.com/>
 
-https://git-scm.com/
+Raycast <https://www.raycast.com/>
 
+Rectangle <https://rectangleapp.com/>
 
-https://www.raycast.com/
+### 訂閱
 
-
-<https://rectangleapp.com/>
-
-
-
-<https://setapp.com/>
+Setapp <https://setapp.com/>
