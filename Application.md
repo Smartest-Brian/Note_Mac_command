@@ -36,6 +36,8 @@ Docker Desktop <https://www.docker.com/products/docker-desktop/>
 
 Sublime Text <https://www.sublimetext.com/>
 
+Google Chrome Remote Desktop <https://remotedesktop.google.com/access>
+
 ---
 
 ### IDE
@@ -46,3 +48,4 @@ Antigravity <https://antigravity.google/>
 
 Pycharm <https://www.jetbrains.com/pycharm/>
 
+Rider <https://www.jetbrains.com/rider/>
