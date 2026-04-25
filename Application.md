@@ -38,6 +38,8 @@ Sublime Text <https://www.sublimetext.com/>
 
 Google Chrome Remote Desktop <https://remotedesktop.google.com/access>
 
+Ghostty <https://ghostty.org/download> [Ghostty安裝後設定](Settings/Ghostty/config.txt)
+
 ---
 
 ### IDE
