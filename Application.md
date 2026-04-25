@@ -52,6 +52,12 @@ Rider <https://www.jetbrains.com/rider/>
 
 ---
 
-#Font
+### Font
 
 JetBrains Mono <https://www.jetbrains.com/lp/mono/>
+
+1.  前往 [JetBrains Mono 官網](https://www.jetbrains.com/lp/mono/)。
+2.  點擊 **Download Font** 按鈕下載壓縮檔。
+3.  解壓縮後，進入 `fonts/ttf` 資料夾。
+4.  選取所有的 `.ttf` 檔案，**連按兩下 (Double Click)**。
+5.  macOS 會跳出「字體簿 (Font Book)」視窗，點擊 **安裝字體 (Install Font)** 即可。
