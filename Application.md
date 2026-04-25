@@ -49,3 +49,9 @@ Antigravity <https://antigravity.google/>
 Pycharm <https://www.jetbrains.com/pycharm/>
 
 Rider <https://www.jetbrains.com/rider/>
+
+---
+
+#Font
+
+JetBrains Mono <https://www.jetbrains.com/lp/mono/>
