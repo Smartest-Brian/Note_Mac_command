@@ -1,50 +1,59 @@
 # -----------------------------------------------------------------------------
-# Ghostty Configuration for Developers
-# Location: ~/.config/ghostty/config
+# Ghostty Final Config: Optimized for macOS & Stability
 # -----------------------------------------------------------------------------
 
+# --- Localization ---
+# 強制介面顯示英文 (en_US)
+language = en_US
+
 # --- Appearance & Theme ---
-theme = dark:catppuccin-macchiato,light:catppuccin-latte
-font-family = "JetBrainsMono Nerd Font"
-font-size = 14
-font-feature = -calt, -liga, -dlig # Enable ligatures if your font supports them
+theme = Catppuccin Macchiato
+background-opacity = 0.7
+background-blur = 90
 cursor-style = block
 cursor-style-blink = true
 
-# --- Window Layout ---
-window-padding-x = 10
-window-padding-y = 10
-window-decoration = true
-macos-titlebar-style = transparent
-window-theme = system
+# --- Typography ---
+font-family = "JetBrainsMono Nerd Font"
+adjust-cell-height = 15%
+font-size = 14
+font-feature = -calt, -liga, -dlig
 
-# --- Performance & Rendering ---
-fps-limit = 120
-rendering-driver = metal
+# --- Window Layout ---
+window-padding-x = 12
+window-padding-y = 12
+macos-titlebar-style = transparent
+window-save-state = default
+window-step-resize = true
+
+# --- Performance ---
+window-vsync = true
 
 # --- Terminal Behavior ---
-shell-command = /bin/zsh --login
+command = /bin/zsh --login
+copy-on-select = true
+mouse-scroll-multiplier = 2
 confirm-close-surface = false
-copy-on-select = clipboard
 
-# --- Keybindings (Tailored for macOS workflow) ---
-# Quick split management
+# --- Keybindings ---
+
+# Split panes
 keybind = super+d=new_split:right
 keybind = super+shift+d=new_split:down
 keybind = super+w=close_surface
 
-# Navigation between splits
+# Navigation (Vim-style HJKL)
 keybind = super+ctrl+h=goto_split:left
 keybind = super+ctrl+l=goto_split:right
 keybind = super+ctrl+k=goto_split:up
 keybind = super+ctrl+j=goto_split:down
 
-# Tab management
+# Tabs
 keybind = super+t=new_tab
 keybind = super+shift+left=previous_tab
 keybind = super+shift+right=next_tab
 
-# Font size control
+# Font Zoom
 keybind = super+equal=increase_font_size:1
 keybind = super+minus=decrease_font_size:1
 keybind = super+zero=reset_font_size
