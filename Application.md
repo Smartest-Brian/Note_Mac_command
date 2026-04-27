@@ -42,6 +42,8 @@ Ghostty <https://ghostty.org/download> [Ghostty安裝後設定](Settings/Ghostty
 
 Wrap <https://www.warp.dev/mac-terminal>
 
+Tree [使用macOS內建find](Settings/Tree/setting.md)
+
 ---
 
 ### IDE
