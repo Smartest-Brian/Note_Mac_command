@@ -55,6 +55,11 @@ Antigravity <https://antigravity.google/>
 Pycharm <https://www.jetbrains.com/pycharm/>
 
 Rider <https://www.jetbrains.com/rider/>
+```bash
+# 如果使用 Rider 安裝 SDK .net 路徑會在這裡，使用方法如下
+$ /Users/{UserName}/.dotnet/dotnet new sln -n SolutionName
+```
+
 
 ---
 
