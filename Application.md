@@ -58,6 +58,11 @@ Rider <https://www.jetbrains.com/rider/>
 ```bash
 # 如果使用 Rider 安裝 SDK .net 路徑會在這裡，使用方法如下
 $ /Users/{UserName}/.dotnet/dotnet new sln -n SolutionName
+
+# 加到環境變數
+$ echo 'export DOTNET_ROOT=$HOME/.dotnet' >> ~/.zshrc
+$ echo 'export PATH=$PATH:$HOME/.dotnet' >> ~/.zshrc
+$ echo 'export PATH=$PATH:$HOME/.dotnet/tools' >> ~/.zshrc
 ```
 
 
