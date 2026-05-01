@@ -38,6 +38,8 @@ Docker Desktop <https://www.docker.com/products/docker-desktop/>
 
 Sublime Text <https://www.sublimetext.com/>
 
+DBeaver <https://dbeaver.io/download/>
+
 Google Chrome Remote Desktop <https://remotedesktop.google.com/access>
 
 Ghostty <https://ghostty.org/download> [Ghostty安裝後設定](Settings/Ghostty/config.txt)
