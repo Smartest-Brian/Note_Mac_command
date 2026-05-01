@@ -89,6 +89,7 @@ $ brew install --cask sourcetree
 $ brew install --cask docker
 $ brew install --cask sublime-text
 $ brew install --cask antigravity
+$ brew install --cask dbeaver-community
 
 # 有訂閱的
 $ brew install --cask setapp
