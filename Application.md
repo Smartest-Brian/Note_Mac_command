@@ -24,6 +24,8 @@ NordVPN <https://nordvpn.com/zh-tw/download/mac/>
 
 Parallels <https://www.parallels.com/products/desktop/>
 
+Gemini <https://gemini.google/tw/mac/?hl=zh-TW>
+
 ---
 
 ### Tool
