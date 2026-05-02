@@ -67,6 +67,7 @@ $ /Users/{UserName}/.dotnet/dotnet new sln -n SolutionName
 $ echo 'export DOTNET_ROOT=$HOME/.dotnet' >> ~/.zshrc
 $ echo 'export PATH=$PATH:$HOME/.dotnet' >> ~/.zshrc
 $ echo 'export PATH=$PATH:$HOME/.dotnet/tools' >> ~/.zshrc
+$ source ~/.zshrc
 ```
 
 
