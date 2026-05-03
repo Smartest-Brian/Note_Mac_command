@@ -42,7 +42,7 @@ DBeaver <https://dbeaver.io/download/>
 
 Google Chrome Remote Desktop <https://remotedesktop.google.com/access>
 
-Ghostty <https://ghostty.org/download> [Ghostty安裝後設定](Settings/Ghostty/config.txt)
+Ghostty (懶人一律去用Wrap) <https://ghostty.org/download> - [Ghostty安裝後設定](Settings/Ghostty/config.txt)
 
 Wrap <https://www.warp.dev/mac-terminal>
 
