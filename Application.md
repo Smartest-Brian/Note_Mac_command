@@ -20,7 +20,7 @@ $ xcode-select --install
 
 Setapp <https://setapp.com/>
 
-NordVPN <https://nordvpn.com/zh-tw/download/mac/>
+NordVPN (app store 也可以下載) <https://nordvpn.com/zh-tw/download/mac/>
 
 Parallels <https://www.parallels.com/products/desktop/>
 
@@ -42,9 +42,9 @@ DBeaver <https://dbeaver.io/download/>
 
 Google Chrome Remote Desktop <https://remotedesktop.google.com/access>
 
-Ghostty (懶人一律去用Wrap) <https://ghostty.org/download> - [Ghostty安裝後設定](Settings/Ghostty/config.txt)
+Ghostty (懶人一律去用 Warp) <https://ghostty.org/download> - [Ghostty安裝後設定](Settings/Ghostty/config.txt)
 
-Wrap <https://www.warp.dev/mac-terminal>
+Warp <https://www.warp.dev/mac-terminal>
 
 Tree [使用macOS內建find](Settings/Tree/setting.md)
 
