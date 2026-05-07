@@ -80,7 +80,7 @@ $ brew cleanup
 
 ```bash
 # 好用工具
-$ brew install --cask raycast rectangle google-chrome
+$ brew install --cask raycast rectangle google-chrome warp
 
 # 開發 IDE
 $ brew install --cask visual-studio-code
