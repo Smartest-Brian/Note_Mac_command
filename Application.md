@@ -2,13 +2,13 @@
 
 ### 基本
 
-Google Chrome [https://www.google.com/intl/zh-TW/chrome/](https://www.google.com/intl/zh-TW/chrome/)
+Google Chrome <https://www.google.com/intl/zh-TW/chrome/>
 
-Raycast [https://www.raycast.com/](https://www.raycast.com/)
+Raycast <https://www.raycast.com/>
 
-Rectangle [https://rectangleapp.com/](https://rectangleapp.com/)
+Rectangle <https://rectangleapp.com/>
 
-Git [https://git-scm.com/](https://git-scm.com/)
+Git <https://git-scm.com/>
 ```bash
 # 可以直接使用 xcode 安裝
 $ xcode-select --install
@@ -18,33 +18,33 @@ $ xcode-select --install
 
 ### 訂閱
 
-Setapp [https://setapp.com/](https://setapp.com/)
+Setapp <https://setapp.com/>
 
-NordVPN (app store 也可以下載) [https://nordvpn.com/zh-tw/download/mac/](https://nordvpn.com/zh-tw/download/mac/)
+NordVPN <https://nordvpn.com/zh-tw/download/mac/>
 
-Parallels [https://www.parallels.com/products/desktop/](https://www.parallels.com/products/desktop/)
+Parallels <https://www.parallels.com/products/desktop/>
 
-Gemini [https://gemini.google/tw/mac/?hl=zh-TW](https://gemini.google/tw/mac/?hl=zh-TW)
+Gemini <https://gemini.google/tw/mac/?hl=zh-TW>
 
 ---
 
 ### Tool
 
-Sourcetree [https://www.sourcetreeapp.com/](https://www.sourcetreeapp.com/)
+Sourcetree <https://www.sourcetreeapp.com/>
 
-Postman [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
+Postman <https://www.postman.com/downloads/>
 
-Docker Desktop [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)
+Docker Desktop <https://www.docker.com/products/docker-desktop/>
 
-Sublime Text [https://www.sublimetext.com/](https://www.sublimetext.com/)
+Sublime Text <https://www.sublimetext.com/>
 
-DBeaver [https://dbeaver.io/download/](https://dbeaver.io/download/)
+DBeaver <https://dbeaver.io/download/>
 
-Google Chrome Remote Desktop [https://remotedesktop.google.com/access](https://remotedesktop.google.com/access)
+Google Chrome Remote Desktop <https://remotedesktop.google.com/access>
 
-Ghostty (懶人一律去用 Wrap) [https://ghostty.org/download](https://ghostty.org/download) - [Ghostty安裝後設定](Settings/Ghostty/config.txt)
+Ghostty (懶人一律去用Wrap) <https://ghostty.org/download> - [Ghostty安裝後設定](Settings/Ghostty/config.txt)
 
-Warp [https://www.warp.dev/mac-terminal](https://www.warp.dev/mac-terminal)
+Wrap <https://www.warp.dev/mac-terminal>
 
 Tree [使用macOS內建find](Settings/Tree/setting.md)
 
@@ -52,13 +52,13 @@ Tree [使用macOS內建find](Settings/Tree/setting.md)
 
 ### IDE
 
-Visual Studio Code [https://code.visualstudio.com/](https://code.visualstudio.com/)
+Visual Studio Code <https://code.visualstudio.com/>
 
-Antigravity [https://antigravity.google/](https://antigravity.google/)
+Antigravity <https://antigravity.google/>
 
-Pycharm [https://www.jetbrains.com/pycharm/](https://www.jetbrains.com/pycharm/)
+Pycharm <https://www.jetbrains.com/pycharm/>
 
-Rider [https://www.jetbrains.com/rider/](https://www.jetbrains.com/rider/)
+Rider <https://www.jetbrains.com/rider/>
 ```bash
 # 如果使用 Rider 安裝 SDK .net 路徑會在這裡，使用方法如下
 $ /Users/{UserName}/.dotnet/dotnet new sln -n SolutionName
@@ -75,7 +75,7 @@ $ source ~/.zshrc
 
 ### Font
 
-JetBrains Mono [https://www.jetbrains.com/lp/mono/](https://www.jetbrains.com/lp/mono/)
+JetBrains Mono <https://www.jetbrains.com/lp/mono/>
 
 1.  前往 [JetBrains Mono 官網](https://www.jetbrains.com/lp/mono/)。
 2.  點擊 **Download Font** 按鈕下載壓縮檔。
